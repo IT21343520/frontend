@@ -147,6 +147,8 @@ const Register = () => {
           className="bg-black text-white"
           isLoading={isSubmitting}
         >
+          //register button 
+          
           Register
         </Button>
         <span className="text-sm font-semibold ">
