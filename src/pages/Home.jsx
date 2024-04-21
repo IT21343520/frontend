@@ -13,7 +13,7 @@ const Home = () => {
   useEffect(() => {
     try {
       const fetchPost = async () => {
-        /* sending data to axios api to getall posts */ 
+        // sending data to axios api to getall posts  
         const { data } = await axios.get(
           "http://localhost:8080/api/posts/getAll"
         );
@@ -27,6 +27,7 @@ const Home = () => {
 
   console.log(post);
 
+  //layout
   return (
     <Layout>
       <div className="bg-[#eaf4fd]  rounded-lg p-1 w-full flex justify-center min-h-screen ">
